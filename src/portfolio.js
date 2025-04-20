@@ -903,18 +903,16 @@ const projects = [
       { name: "OpenCV" }
     ]
   },
-  // {
-  //   name: "Autonomous Drone Navigation",
-  //   description: "Implemented a computer vision system for autonomous drone navigation using ROS and OpenCV, enabling real-time obstacle detection and path planning in dynamic environments.",
-  //   image: "drone.png", // Place this image in assets/images/projects/
-  //   url: "https://github.com/amlansahoo07/drone-nav",
-  //   languages: [
-  //     { name: "Python" },
-  //     { name: "ROS" },
-  //     { name: "OpenCV" },
-  //     { name: "TensorFlow" }
-  //   ]
-  // },
+  {
+    name: "Computer Vision for Drone Landing",
+    description: "Developed computer vision and sensing algorithms to estimate the geometry, rotation, and motion of a suspended Astronomical Object (AO) model to aid in drone navigation and landing strategies in dynamic space exploration environments.",
+    image: "drone-landing.png",
+    url: "https://github.com/amlansahoo07/drone-landing",
+    languages: [
+      { name: "Python" },
+      { name: "OpenCV" },
+    ]
+  },
   // {
   //   name: "Smart Blind Stick",
   //   description: "Designed and built a prototype assistive device for the visually impaired using Arduino, ultrasonic sensors and haptic feedback to detect obstacles and provide navigation assistance.",
