@@ -878,6 +878,20 @@ const projectsHeader = {
 // Projects Section
 const projects = [
   {
+    name: "3D Vision Benchmarking: Visual SLAM vs. SfM",
+    description: `Evaluated ORB-SLAM2 and COLMAP for 3D reconstruction and tracking using self-recorded indoor and outdoor datasets. Focused on pose estimation accuracy, 
+    reconstruction quality, and robustness under varied conditions. Developed a dense 3D reconstruction pipeline with sub-10cm detail preservation, enabling applications in 
+    robotics, augmented reality, and heritage preservation. Demonstrated potential for high-fidelity digital archiving and virtual exploration.`,
+    image: "3d_vision.png", 
+    url: "https://github.com/amlansahoo07/3d-vision-benchmarking",
+    languages: [
+      { name: "ORB-SLAM2" },
+      { name: "COLMAP" },
+      { name: "EVO Toolkit" },
+      { name: "C++" }
+    ]
+  },
+  {
     name: "MPPI footstep planning for quadruped robots",
     description: "Real-time motion planning for quadruped robots using Model Predictive Path Integral (MPPI) control integrated into a JAX-based MuJoCo simulation environment to enable adaptive, terrain-aware locomotion.",
     image: "mppi_footstep.png", 
