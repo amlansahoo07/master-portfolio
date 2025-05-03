@@ -99,9 +99,9 @@ const skills = {
       title: "Robotics & AI",
       fileName: "RoboticsImg",
       skills: [
-        "⚡ Building intelligent robotic systems using perception, planning, and control algorithms",
-        "⚡ Working with legged locomotion, footstep planning, and adaptive gait strategies",
-        "⚡ Simulating robots in MuJoCo and Gazebo for real-time planning and control tasks",
+        "⚡ Strong foundation in robot software architecture, motion planning, and control systems",
+        "⚡ Experience in developing modular frameworks for perception, decision-making, and actuation",
+        "⚡ Proficient with industry-standard tools and simulators for robotic development",
       ],
       softwareSkills: [
         {
@@ -156,9 +156,9 @@ const skills = {
       title: "ML & Computer Vision",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience with computer vision, CNNs, and spatiotemporal modeling",
-        "⚡ Built forecasting and classification models using real-world datasets",
-        "⚡ Leveraging ML for adaptive control and perception in robotics",
+        "⚡ Skilled in designing and training models for visual perception, forecasting, and classification tasks",
+        "⚡ Comfortable with deep learning, CNNs, and spatiotemporal modelling for autonomous systems",
+        "⚡ Experience in 3D perception and multi-senor fusion for robust perception tasks",
       ],
       softwareSkills: [
         {
@@ -217,12 +217,12 @@ const skills = {
       ],
     },
     {
-      title: "Software Engineering & DevOps",
+      title: "Software Engineering",
       fileName: "FullStackImg",
       skills: [
         "⚡ Developed automation pipelines and SRE tooling to enhance system reliability and observability",
         "⚡ Experience working in production environments with CI/CD, logging, and monitoring",
-        "⚡ Data-driven debugging, incident response, and workflow optimization",
+        "⚡ Proficient in data-driven debugging, incident response, and workflow optimization",
       ],
       softwareSkills: [
         {
