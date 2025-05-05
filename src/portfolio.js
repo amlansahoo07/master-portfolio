@@ -918,6 +918,17 @@ const projects = [
     ]
   },
   {
+    name: "3D Point Cloud Classification and Segmentation",
+    description: "A comprehensive 3D perception project with three complementary pipelines for table classification and segmentation from depth images. My contribution focused on the segmentation pipeline using Dynamic Graph CNN, achieving 92% accuracy and 87.2% IoU on test data while addressing challenges in point cloud processing and domain adaptation across different sensor types.",
+    image: "pointcloud_table_detection.png", 
+    url: "https://github.com/amlansahoo07/pointcloud-table-detection",
+    languages: [
+      { name: "PyTorch" },
+      { name: "OpenCV" },
+      { name: "Open3D" }
+    ]
+  },
+  {
     name: "Computer Vision for Drone Landing",
     description: "Developed computer vision and sensing algorithms to estimate the geometry, rotation, and motion of a suspended Astronomical Object (AO) model to aid in drone navigation and landing strategies in dynamic space exploration environments.",
     image: "drone-landing.png",
@@ -927,17 +938,6 @@ const projects = [
       { name: "OpenCV" },
     ]
   },
-  // {
-  //   name: "Smart Blind Stick",
-  //   description: "Designed and built a prototype assistive device for the visually impaired using Arduino, ultrasonic sensors and haptic feedback to detect obstacles and provide navigation assistance.",
-  //   image: "blindstick.png", // Place this image in assets/images/projects/
-  //   url: "https://github.com/amlansahoo07/smart-blind-stick",
-  //   languages: [
-  //     { name: "C++" },
-  //     { name: "Arduino" },
-  //     { name: "IoT" }
-  //   ]
-  // }
 ];
 
 const publicationsHeader = {
